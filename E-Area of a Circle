@@ -1,0 +1,15 @@
+#include <iostream>
+#include<iomanip>
+#include<math.h>
+#include<cmath>
+#include<Algorithm>
+#include<stdio.h>
+using namespace std;
+
+int main(){
+       
+       double P = 3.141592653;
+           double R;
+           cin >> R;
+           cout << fixed << setprecision(9) << (P * pow(R, 2));
+}
