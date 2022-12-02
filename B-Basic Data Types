@@ -1,0 +1,18 @@
+
+#include <iostream>
+#include<iomanip>
+#include<math.h>
+#include<cmath>
+#include<Algorithm>
+#include<stdio.h>
+using namespace std;
+
+int main(){
+       int  x ; 
+       long long y ; 
+       char z; 
+       float n ;
+       double m ;
+         cin >> x >> y >> z >> n >> m;
+         cout << x<< "\n" << y <<"\n" << z <<"\n" << n <<"\n" << m
+}
