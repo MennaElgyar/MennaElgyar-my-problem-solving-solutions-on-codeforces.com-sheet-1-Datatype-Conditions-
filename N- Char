@@ -1,0 +1,24 @@
+#include <iostream>
+#include<iomanip>
+#include<math.h>
+#include<cmath>
+#include<Algorithm>
+using namespace std;
+ 
+int main()
+{
+  
+                char X;
+                cin >> X;
+                if (X >= 'A' && X <= 'Z') {
+                X = X + 32;
+                cout << X;
+                }
+                else {
+               
+                 X = X - 32;
+                 cout << X;
+ 
+ 
+                }
+}
