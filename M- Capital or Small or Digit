@@ -1,0 +1,28 @@
+#include <iostream>
+#include<iomanip>
+#include<math.h>
+#include<cmath>
+#include<Algorithm>
+using namespace std;
+ 
+int main()
+{
+ 
+    char X;
+    cin >> X;
+    if (isalpha(X)) {
+        cout << "ALPHA" << endl;
+        if (isupper(X))
+            cout << "IS CAPITAL" << endl;
+        else
+        {
+            cout << "IS SMALL" << endl;
+        }
+    }
+    else
+    {
+        cout << "IS DIGIT" << endl;
+    }
+ 
+ 
+}
